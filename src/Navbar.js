@@ -4,16 +4,20 @@ import { SideBar, Socials } from './data';
 import logo from './logo.svg';
 
 const Navbar = () => {
+  const [showlinks, setShowLinks] = useState(false);
   return (
     <nav>
       <div className='nav-center'>
         <div className='nav-header'>
           <img src={logo} alt='coding addict' />
-          <button className='nav-toggle'>
+          <button
+            className='nav-toggle'
+            onClick={() => setShowLinks(!showlinks)}
+          >
             <FaBars />
           </button>
         </div>
-        <div className='links-container show-container'>
+        <div className={`links-container ${showlinks && 'show-container'}`}>
           <ul className='links'>
             <SideBar />
           </ul>
