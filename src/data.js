@@ -1,6 +1,6 @@
-import React from 'react';
-import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
-const links = [
+import React from 'react'
+import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa'
+export const links = [
   {
     id: 1,
     url: '/',
@@ -26,18 +26,9 @@ const links = [
     url: '/profile',
     text: 'profile',
   },
-];
+]
 
-export const SideBar = () =>
-  links.map((media) => {
-    return (
-      <li key={media.id}>
-        <a href={media.url}>{media.text}</a>
-      </li>
-    );
-  });
-
-const social = [
+export const social = [
   {
     id: 1,
     url: 'https://www.twitter.com',
@@ -58,13 +49,4 @@ const social = [
     url: 'https://www.twitter.com',
     icon: <FaBehance />,
   },
-];
-
-export const Socials = () =>
-  social.map((media) => {
-    return (
-      <li key={media.id}>
-        <a href={media.url}>{media.icon}</a>
-      </li>
-    );
-  });
+]
