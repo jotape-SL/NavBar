@@ -1,6 +1,21 @@
+<div align=center>
+
 # NavBar
 
 Uma navBar simples e responsiva. Feito como treino de React.
+
+</div>
+
+<div align=center>
+
+![imageDSK](https://user-images.githubusercontent.com/102804110/188294425-2a7af449-35b8-491e-98f2-728879878632.png)
+
+![imageMBL](https://user-images.githubusercontent.com/102804110/188294436-416b3433-7406-4c67-9086-3dbd2e4984e3.png)
+
+
+</div>
+
+
 
 ## 🚀 Como executar o projeto
 
@@ -39,6 +54,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
 - **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
 - **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)**
+- **[React](https://pt-br.reactjs.org/docs/getting-started.html)**
 
 ## ✒️ Autores
 
